@@ -12,4 +12,4 @@ A simple chrome extension for filtering movies by year on the streaming service 
 
 ## License
 
-This project is licensed under the MIT License - see [LICENSE.md](LICENSE.md).
+This project is licensed under the MIT License - see [LICENSE](LICENSE).
