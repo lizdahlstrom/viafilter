@@ -1,0 +1,23 @@
+{
+  "name": "viafilter",
+  "author": "Liz Dahlström",
+  "version": "1.0",
+  "description": "Filters movies based on year.",
+  "permissions": ["storage", "tabs"],
+  "content_scripts": [
+    {
+      "matches": ["https://viaplay.se/film/*", "https://viaplay.se/film"],
+      "js": ["js/filter.js"]
+    }
+  ],
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "browser_action":{
+    "default_icon": "images/icon128.png",
+    "default_popup": "options.html",
+    "default_title": "Viafilter"
+  },
+  "manifest_version": 2
+}

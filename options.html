@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Viaplay movie filter</title>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="/css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="node_modules/materialize-css/extras/noUiSlider/nouislider.css">
+  <link type="text/css" rel="stylesheet" href="css/popup.css">
+</head>
+
+<style>
+  .search-menu title {
+    display: hidden;
+  }
+</style>
+
+<body>
+  <div class="container ">
+
+    <div class="row"></div>
+
+        <div class="row">
+
+        <span>
+          Start: <input matInput type="text" id="startYear">
+        </span>
+        </div>
+        <div class="row">
+          <span>
+            End : <input matInput type="text" id="endYear">
+          </span>
+        </div>
+
+        <div class="row">
+            <button id='updateBtn' class="btn waves-effect waves-dark" >Apply</button>
+        </div>
+    
+    <div class="row"></div>
+
+  </div>
+  <!-- <script src="https://code.jquery.com/jquery-1.9.1.js"></script> -->
+  <script type="text/javascript" src="/js/materialize.min.js"></script>
+  <script src="js/settings.js"></script>
+  <script src="js/filter.js"></script>
+</body>
+
+</html>
